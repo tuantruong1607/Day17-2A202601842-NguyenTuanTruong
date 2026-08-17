@@ -54,7 +54,7 @@ docker compose run --rm app python -m src.compare_reports
 # Phut 110: copy data/golden_eval.json (giang vien phat), roi:
 docker compose run --rm app python -m src.evaluate --impl student --reuse-seeded --golden
 # Bonus UI:
-# GEMINI_API_KEY trong .env de chat; retrieval van chay khong can Gemini
+# OPENAI_API_KEY trong .env de chat; retrieval van chay khong can OpenAI
 # make ui   # http://localhost:8501
 ```
 
